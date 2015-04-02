@@ -1,3 +1,5 @@
+Note: this repo is converted from the official code.haskell.org darcs repo (http://code.haskell.org/protocol-buffers/) by using darcs-to-git (https://github.com/purcell/darcs-to-git).
+
 This the README file for protocol-buffers, protocol-buffers-descriptors, and hprotoc.
 These are three interdependent Haskell packages by Chris Kuklewicz.
 This README was updated most recently to reflect version 2.0.7
