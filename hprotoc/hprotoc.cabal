@@ -72,7 +72,7 @@ Executable hprotoc
                    MultiParamTypeClasses,
                    PatternGuards,
                    RankNTypes,
-                   RecursiveDo,
+                   DoRec,
                    ScopedTypeVariables,
                    TypeSynonymInstances
 --                   PatternSignatures
@@ -127,6 +127,6 @@ Library
                    MultiParamTypeClasses,
                    PatternGuards,
                    RankNTypes,
-                   RecursiveDo,
+                   DoRec,
                    ScopedTypeVariables,
                    TypeSynonymInstances
