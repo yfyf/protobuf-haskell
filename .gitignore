@@ -1,0 +1,5 @@
+/.cabal-sandbox/
+/.hsenv/
+/cabal.sandbox.config
+/dist/
+/hsenv.log
