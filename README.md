@@ -1,5 +1,7 @@
-hprotoc || protocol-buffers ||  protobuf-haskell
-================================================
+hprotoc // protocol-buffers
+===========================
+(a.k.a. protobuf-haskell)
+----------------
 
 ### Note
 
