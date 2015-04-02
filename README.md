@@ -3,9 +3,24 @@ hprotoc // protocol-buffers
 (a.k.a. protobuf-haskell)
 ----------------
 
-### Note
+### About this fork
 
-This repo is converted from the official [code.haskell.org darcs repo](http://code.haskell.org/protocol-buffers/) by using [darcs-to-git](https://github.com/purcell/darcs-to-git).
+This repo is converted from the official [code.haskell.org darcs
+repo](http://code.haskell.org/protocol-buffers/) by using
+[darcs-to-git](https://github.com/purcell/darcs-to-git).
+
+The branch [upstream](https://github.com/yfyf/protobuf-haskell/tree/upstream)
+contains original code held in the darcs repo. The master branch will contain
+patches by me.
+
+The version tags correspond to the versions of the `protocol-buffers` package
+(*not* `hprotoc`), keeping it consistent with the original darcs tagging.
+
+Currently, the only version that builds under GHC  7.8.\* is
+[2.0.17](https://github.com/yfyf/protobuf-haskell/releases/tag/hprotoc-2.0.17)
+and versions `=< 2.0.16` only build with GHC `=< 7.6.*`.
+The upstream branch fails to build at all due to some missing (possibly just
+not checked-in) modules.
 
 
 Old / original readme
