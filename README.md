@@ -10,8 +10,9 @@ repo](http://code.haskell.org/protocol-buffers/) by using
 [darcs-to-git](https://github.com/purcell/darcs-to-git).
 
 The branch [upstream](https://github.com/yfyf/protobuf-haskell/tree/upstream)
-contains original code held in the darcs repo. The master branch will contain
-patches by me.
+contains original code held in the darcs repo. The master branch contains
+custom patches of this fork, [here's the
+diff](https://github.com/yfyf/protobuf-haskell/compare/upstream...master).
 
 The version tags correspond to the versions of the `protocol-buffers` package
 (*not* `hprotoc`), keeping it consistent with the original darcs tagging.
